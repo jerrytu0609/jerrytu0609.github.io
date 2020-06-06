@@ -5,5 +5,5 @@ template來源：[HTML5 - spectual]https://html5up.net/spectral<br />
 Introduction部分：更改背景顏色/背景半透明/下方描述文字顏色改成灰色，凸顯標題<br />
 Experience部分：把圖片改成活動照片/下方描述文字顏色改成灰色，凸顯標題<br />
 Other experiences and skills：更改背景顏色/背景半透明/改成相對應得icon<br />
-最下面放上社群主頁連結以及mailto/加上Back to top的按鍵，方便使用者使用
+最下面放上社群主頁連結以及mailto/加上Back to top的按鍵，方便回到home
 
