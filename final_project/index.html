@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <title>籃球計分器</title>
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+
+  <div class="container">
+
+  <!-- 球隊名稱&犯規 -->
+    <div class="row text-center">
+      <div class="col-md-5">
+        <span class="foul-font" id ="foulOne">0</span>
+        <span class="team-font">HOME</span>
+      </div>
+
+      <div class="col-md-5 col-md-offset-2">
+        <span class="team-font">GUEST</span>
+        <span class="foul-font" id ="foulTwo">0</span>
+      </div>
+    </div>
+
+<!-- 大錶 -->
+    <div class="row">
+
+      <div class ="col text-center">
+  
+        <p class="timer"><span id ="time-font" class="min">10</span><span id ="time-font">:</span><span id ="time-font" class="sec">00</span>
+
+      </div>
+    </div>
+
+<!-- 比分 -->
+    <div class="row">
+
+      <div class="col-md-5 text-center">
+        <span class="score-font" id="scoreOne">0</span>
+      </div>
+
+      <div class="col-md-5 col-md-offset-2 text-center">
+        <span class="score-font" id="scoreTwo">0</span>
+      </div>
+    </div>
+
+<!-- 使用說明 -->
+    <div class="row">
+
+      <div class ="col text-center">
+        
+        <h1>[Scrore] (HOME) +1:1 / +2:2 / +3:3 / -1:4 (GUEST) +1:7 / +2:8 / +3:9 / -1:0</h1>
+        <h1>[Foul] (HOME) +:w / -:q (GUSET) +:o / -:p</h1>
+        <h1>[Timer] start:> / stop:< (min) +1 : + / -1 : _ (sec) +1 : @ / -1 : !
+
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
